@@ -133,5 +133,5 @@ Widget buildTextField(
               OutlineInputBorder(borderSide: BorderSide(color: Colors.white))),
       style: TextStyle(color: Colors.blueGrey, fontSize: 25.0),
       onChanged: f,
-      keyboardType: TextInputType.number,);
+      keyboardType: TextInputType.numberWithOptions(decimal: true),);
 }
